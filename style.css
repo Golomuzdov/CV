@@ -135,9 +135,24 @@ h4 {
    filter: grayscale(0%); 
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
 
    .projects__item:nth-last-child(-n+3) {
       display: none;
+   }
+
+   .projects__inner {
+      justify-content: center;
+   }
+
+   .projects__item {
+      margin: 0 10px;
+   }
+}
+
+@media (max-width: 810px) {
+
+   .projects__inner {
+      height: 450px;
    }
 }
